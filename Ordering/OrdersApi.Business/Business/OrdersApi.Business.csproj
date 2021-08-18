@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\OrdersApi.DataAccess\DAL.Repository.Specifications\OrdersApi.DAL.Repository.Specifications.csproj" />
+    <ProjectReference Include="..\..\OrdersApi.DataAccess\DAL.Repository\OrdersApi.DAL.Repository.csproj" />
+    <ProjectReference Include="..\Business.Contract\OrdersApi.Business.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

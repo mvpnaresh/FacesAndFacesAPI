@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAL.Entities\OrdersApi.DAL.Entities.csproj" />
+    <ProjectReference Include="..\DAL.Repository.Interfaces\OrdersApi.DAL.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\DAL.Repository.SpecificationEvaluator\OrdersApi.DAL.Repository.SpecificationEvaluator.csproj" />
+  </ItemGroup>
+
+</Project>
